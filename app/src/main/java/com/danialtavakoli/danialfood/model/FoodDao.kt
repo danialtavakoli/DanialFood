@@ -1,4 +1,4 @@
-package com.danialtavakoli.danialfood.room
+package com.danialtavakoli.danialfood.model
 
 import androidx.room.*
 
@@ -18,7 +18,7 @@ interface FoodDao {
     fun deleteAllFoods()
 
     @Query("SELECT * FROM table_food")
-    fun getAllFood(): List<Food>
+    fun getAllFoods(): List<Food>
 
     @Query("SELECT * FROM table_food WHERE txtSubject LIKE '%' || :searching || '%' ")
     fun searchFoods(searching: String): List<Food>

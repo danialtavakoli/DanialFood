@@ -1,4 +1,4 @@
-package com.danialtavakoli.danialfood
+package com.danialtavakoli.danialfood.mainScreen
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.danialtavakoli.danialfood.databinding.ItemFoodBinding
-import com.danialtavakoli.danialfood.room.Food
+import com.danialtavakoli.danialfood.model.Food
 import jp.wasabeef.glide.transformations.RoundedCornersTransformation
 
 class FoodAdapter(private val data: ArrayList<Food>, private val foodEvents: FoodEvents) :

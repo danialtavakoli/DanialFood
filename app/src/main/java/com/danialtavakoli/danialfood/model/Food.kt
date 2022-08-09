@@ -1,4 +1,4 @@
-package com.danialtavakoli.danialfood.room
+package com.danialtavakoli.danialfood.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
